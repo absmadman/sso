@@ -1,0 +1,6 @@
+env: "production"
+storage_path: "./storage/sso.db"
+token_ttl: 1h
+grpc:
+  port: 8080
+  timeout: 5s
